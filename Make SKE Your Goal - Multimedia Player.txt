@@ -1,0 +1,42 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multimedia Player</title>
+</head>
+
+<body>
+<h1>Make SKE Your Goal!</h1>
+
+<section>
+  <h2>A Song That Inspires</h2>
+  <p>Listen to the song entitled "Let's Take the Leap!" to see the joys that come from moving to where the need is greater!</p>
+
+  <audio controls aria-label="Song lets take the leap from jw">
+    <source src="https://cdn.freecodecamp.org/curriculum/js-music-player/sailing-away.mp3" type="audio/mp3">
+  </audio>
+
+</section>
+
+<section>
+  <h2>Can You Make the Move?</h2>
+  <p></p>
+  <video controls paused width="300" aria-label="Video on why you should apply for SKE">
+  <source src="https://cdn.freecodecamp.org/curriculum/labs/what-is-the-map-method-and-how-does-it-work.mp4" type="video/mp4">
+  <track src="https://cdn.freecodecamp.org/curriculum/labs/what-is-the-map-method-and-how-does-it-work.vtt" kind="captions" srclang="en" label="English"></track>
+  </video>
+</section>
+
+<section>
+  <h2>Transcript</h2>
+  <p>Since its inception in 2014, the School for Kingdom Evangelizers has accomplished much good in the worldwide field as SKE graduates help to further Kingdom interests. This two-month school is designed to train experienced pioneers who are willing to serve wherever they're needed...</p>
+</section>
+</body>
+
+</html>
+
+** end of index.html **
+
