@@ -1,0 +1,50 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Checkout Page</title>
+</head>
+
+<body>
+<h1>Checkout</h1>
+
+<section>
+<h2>Your Cart</h2>
+
+<img height="300" src="https://i.pinimg.com/736x/65/4a/19/654a1950d3d9ba0cbdb3fa0703542e61.jpg" alt="Purple dress for toddlers on the table with a big bow in the front and ruffle short sleeves">
+
+<p>Purple Dress with Big Bow for Toddler Girls One Size
+    <br><br> $12.00 CAN
+</p>
+
+</section>
+
+<section>
+    <h2>Payment Information</h2>
+    <form>
+        <label for="card-name"  >Cardholder's Name <span aria-hidden="true">*</span></label>
+        <input required id="card-name" name="card-name" type="text">
+<br>
+        <label for="card-number">Card Number <span aria-hidden="true">*</span></label>
+        <input required id="card-number" name="card-number" type="text" aria-describedby="card-number-help">
+<p id="card-number-help">Please enter your 16-digit card number without spaces or dashes.
+</p>
+       
+       <label for="expiry-date">Expiry Date <span aria-hidden="true">*</span></label>
+       <input required id="expiry-date" name="expiry-date" type="text" placeholder="MM/YY">
+
+<label for="CVV">CVV <span aria-hidden="true">*</span></label>
+<input required id="CVV" name="CVV" type="number">
+
+<button>Place Order</button>
+    </form>
+</section>
+</body>
+
+</html>
+
+** end of index.html **
+
