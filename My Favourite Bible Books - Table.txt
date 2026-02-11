@@ -1,0 +1,71 @@
+** start of index.html **
+
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Book Catalog Table</title>
+    </head>
+
+    <body>
+      <h1>My Favourite Bible Books</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Genre</th>
+            <th>Publication Year</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Ecclesiastes</td>
+            <td>Solomon</td>
+            <td>Modern wisdom</td>
+            <td>1000 BCE</td>
+          </tr>
+
+          <tr>
+            <td>Matthew</td>
+            <td>Matthew</td>
+            <td>Jesus' life</td>
+            <td>41 CE</td>
+          </tr>
+
+          <tr>
+            <td>Ephesians</td>
+            <td>Paul</td>
+            <td>Practical lessons</td>
+            <td>60 CE</td>
+          </tr>
+
+          <tr>
+            <td>Ezekiel</td>
+            <td>Ezekiel</td>
+            <td>Prophecies</td>
+            <td>591 BCE</td>
+          </tr>
+
+          <tr>
+            <td>Revelation</td>
+            <td>Apostle John</td>
+            <td>Future Events</td>
+            <td>96 CE</td>
+          </tr>
+        </tbody>
+
+        <tfoot>
+          <tr>
+            <td colspan="4">Total Books: 5</td>
+          </tr>
+        </tfoot>
+      </table>
+    </body>
+
+  </html>
+
+** end of index.html **
+
