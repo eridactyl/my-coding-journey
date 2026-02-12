@@ -1,0 +1,72 @@
+body {
+  background-color: rgb(152, 152, 202);
+max-width: 350px;
+min-width: 350px;
+margin-right: auto;
+margin-left: auto;
+font-family: cursive;
+}
+
+.main-backdrop {
+  background-color: rgb(230, 230, 250);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgb(47, 47, 100);
+}
+
+h1, p {
+text-align: center;
+color: rgb(107, 107, 162);
+}
+
+.date {
+  font-weight: bold;
+}
+
+.todo-list, .sub-item {
+  list-style: none;
+  list-style-position: outside;
+  margin-left: -35px;
+}
+
+.sub-item {
+text-indent: 50px;
+padding-top: 5px;
+}
+
+label {
+  color: rgb(75, 75, 143);
+  font-weight: bold;
+}
+
+a:link {
+  color: orange;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(161, 161, 231);
+}
+
+a:hover {
+  color: yellow;
+}
+
+a:focused {
+  outline: white 1px solid ;
+}
+
+a:active {
+  color: pink;
+}
+
+.task {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 13px;
+}
+
+
