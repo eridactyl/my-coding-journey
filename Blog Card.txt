@@ -1,0 +1,83 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Blog Post Card</title>
+</head>
+<body>
+
+<div class="blog-post-card">
+    <img class="post-img" src="https://fleetdm.com/images/articles/4-tips-for-github-actions-usability-cover-1600x900@2x.jpg" alt="github logo behind a purple background">
+    
+    <div class="post-content">
+        <h2 class="post-title">My Coding Journey</h2>
+        <p class="post-excerpt">Follow me on GitHub to see what projects I've completed!</p>
+        <a class="read-more" href="https://github.com/eridactyl/my-coding-journey/tree/main">Read More</a>
+    </div>
+
+</div>
+
+
+</body>
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+body {
+  background-color: lavender;
+  font-family: Arial;
+}
+
+.blog-post-card {
+  background: white;
+  border-radius: 15px;
+  width: 350px;
+  text-align: center;
+  margin: 20px;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+.post-img {
+  width: 100%;
+  border-bottom: 3px solid rgb(166, 166, 238);
+}
+
+.post-content {
+  padding: 10px;
+}
+
+.post-title {
+  color: rgb(192, 129, 192);
+  margin: 10px;
+  
+}
+
+.post-excerpt {
+  margin: 20px;
+  color: rgb(181, 181, 226);
+}
+
+.read-more {
+  color: orange;
+  border: solid 2px;
+  background-color: rgb(255, 243, 222);
+margin: 1px;
+padding:7px;
+border-radius: 5px;
+display: inline-block;
+text-decoration: none;
+}
+
+.read-more:hover {
+  background-color: black;
+}
+
+** end of styles.css **
+
