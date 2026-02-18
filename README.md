@@ -6,7 +6,7 @@ i've made several games on Scratch and Tinker. here's a link to my game entitled
 
 now that i'm older (18 years old as of feb. 2026), i want to learn proper coding so that i can make an app!
 
-my current goal is to make an online Bible reading player and tracker that can automatically play the audios for your daily Bible reading!!
+my current goal is to make a budget app that's aesthetic !!
 
 i'll have updates here when i get started on it :))
 
