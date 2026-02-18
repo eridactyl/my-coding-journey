@@ -1,0 +1,145 @@
+// File: c:\Users\erica\OneDrive\Code\VS Code\Event Flyer\reyesfamilynight.css
+body {
+    background: fixed url('https://d1csarkz8obe9u.cloudfront.net/posterpreviews/blurred-colorful-background-design-template-aa398d0caecf2a940adecdd3c4cc226c_screen.jpg?ts=1684706430');
+    background-size: cover;
+    padding: top bottom 50px;
+    margin:top bottom 0;
+    margin-left:auto;
+    margin-right:auto;
+    width:80vw;
+    min-height:calc(100vh - 100px);
+    font-family:cursive;
+    text-align:center;
+    min-width:300px;
+    
+}
+
+.backdrop {
+    background:#fff4fe;
+    padding:30px;
+}
+
+img {
+    width:100%;
+}
+
+.bold {
+    font-weight:bold;
+}
+
+h1 {
+    margin-top: 0px;
+}
+
+section {
+    background: white;
+    border-radius:10px;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:200px;
+    display:inline-block;
+}
+
+ul {
+    text-align:left;
+}
+
+h2 {
+    margin: 10px;
+    overflow-wrap: break-word;
+}
+
+.activity-sec {
+    background:lavender;
+    padding: 2px;
+    margin: 5% 0px;
+}
+
+.invited-sec {
+    background:rgb(173, 245, 170);
+    padding: 2px;
+    margin: 5% 0px;
+}
+
+.menu-sec {
+    background:rgb(240, 252, 174);
+    padding: 2px;
+    margin: 5% 0px;
+}
+
+.invited-sec, .menu-sec, .activity-sec {
+    width: 170px;
+    height:200px;
+    vertical-align: top;
+}
+
+hr {
+    width:100%;
+    height:4px;
+    background-color:rgb(64, 64, 142);
+    border: none;
+}
+
+
+
+// File: c:\Users\erica\OneDrive\Code\VS Code\Event Flyer\reyesfamilynight.html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Build an Event Flyer Page</title>
+  <link rel="stylesheet" href="reyesfamilynight.css">
+</head>
+
+<body>
+<div class="backdrop">
+    <header>
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEiN12yBpnHFE5J0oUwuwIiUKkgDYXPaFpUFSs2xQjg2JptmJd6GYQAv4ozsiXKIZMG288KeWWm5AIYsHq8bnMisArltgw2v3MaDCNfar6EQgLh3KnikKXsE4EevTZtw3pkWzQaW8HdrExT0D2w7IB3aVJS0EdpoRqLxP257ZEMu7TEAv_o-iAT0mI9oqk-g" alt="Drawings of couple playing cards, man singing, and a family dancing together.">
+        <h1 class="title">Reyes Family Night</h1>
+        <p id="caption">Join us for a fun-filled evening of karaoke, games, and family bonding!</p>
+        <p><span class="bold">When?</span> Feb. 16, 2026 <span class="bold">Where?</span> Home</p>
+    </header>
+
+   <main>
+    <section class="activity-sec">
+      <h2>Featured Activities</h2>
+      <ul>
+        <li>Karaoke</li>
+        <li>Games</li>
+        <li>Dance</li>
+      </ul>
+    </section>
+    
+    <section class="invited-sec">
+      <h2>Invited Guests</h2>
+    <ul>
+      <li>Salvador</li>
+      <li>Ethel</li>
+      <li>Danica</li>
+      <li>Erica</li>
+    </section>
+    
+    <section class="menu-sec">
+      <h2>On the Menu</h2>
+      <ul>
+        <li>Patatim</li>
+        <li>Waffles</li>
+        <li>Kefir</li>
+      </ul>
+    </section>
+
+    <hr class="horiz-rule">
+
+    <footer>
+      <p>&copy; 2026 Family Night. All rights reserved.</p>
+    </footer>
+    </ul>
+   </main>
+</div>
+
+</body>
+
+</html>
+
